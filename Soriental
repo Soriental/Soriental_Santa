@@ -1,0 +1,29 @@
+//META{"name":"Soriental_Santa","description":"This very good santa! - ,"Creator":"Soriental","version":"1.0"}*//{}
+
+@import url ("https://rawgit.com/Soriental/Soriental_Santa/tree/master");
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+*/
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+============== CUSTOMIZABLE COLORS ===============
+
+:root {
+    
+    /* Colors Here, Customize if you want. */
+         
+         --main-color: #59A7EC;
+         --hover-color: #0D66EC;
+         --channel-color: #B90606;
+         
+         
+         /* Background */
+            
+            --background-image: url(https://i.imgur.com/a/3Shlu.jpg)
+            
+        
+         /* Other things */
+         
+         --background-blur: 1px;
+	     --background-brightness: 93%;
+	     --emoji-size: 32px;
