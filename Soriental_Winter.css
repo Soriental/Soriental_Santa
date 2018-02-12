@@ -1,8 +1,9 @@
-//META{"name":"SantaBois","description":"Cool Santa Theme","author":"Soriental","version":"1.0"}*//{}
+//META{"name":"ClearVision_Sapphire","description":"A chilly, blue theme with customizable colors & background! Based on Discord Reborn by @Omniscient &DarkMatter by @Hammock. Server: https://discord.me/clearvision","author":"Zerthox","version":"5"}*//{}
+/* "Soriental" by @Crillish */
+/* Based on "Discord Reborn v4.30" by @Omniscient & "DarkMatter" by @Hammock */
 
-@import url(https://cdn.rawgit.com/Soriental/Soriental_Santa/f878110a/Soriental_Winter.css);
-@IMPORT URL("https://rawgit.com/Soriental/Soriental_Santa/master/Soriental_Winter.css");
-
+/* IMPORT CSS FROM GITHUB */
+@import url(https://rawgit.com/Soriental/Soriental_Santa/master/Soriental_Winter.css);
 /*
 ---------------------------------------------------------------------------------------------------------------------------------------------
 ============== CUSTOMIZABLE COLORS ===============
