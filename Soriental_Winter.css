@@ -1,25 +1,37 @@
-//META{"name":"Soriental_Santa","description":"This very good santa! - ,"Creator":"Soriental","version":"1.0"}*//{}
+//META{"name":"SantaBois","description":"Cool Santa Theme","author":"Soriental","version":"1.0"}*//{}
 
+@import url(https://cdn.rawgit.com/Soriental/Soriental_Santa/f878110a/Soriental_Winter.css);
+@IMPORT URL("https://rawgit.com/Soriental/Soriental_Santa/master/Soriental_Winter.css");
 
-
-/* -------- Customize Color Here -------- */
-
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+============== CUSTOMIZABLE COLORS ===============
+*/
 :root {
-    
-    /* Colors Here, Customize if you want. */
-         
-         --main-color: #59A7EC;
-         --hover-color: #0D66EC;
-         --channel-color: #B90606;
-         
-         
-         /* Background */
-            
-            --background-image: url(https://i.imgur.com/a/3Shlu.jpg)
-            
-        
-         /* Other things */
-         
-         --background-blur: 1px;
-	     --background-brightness: 93%;
-	     --emoji-size: 32px;
+	--main-color: #27bce6;
+	--hover-color: #1e81b2;
+    --background-blur: 0px;
+    --background-brightness: 100%;
+}
+/*
+--------------------------------------------------------------------------------------------------------------------------------------------
+*/
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+========= CUSTOMIZABLE BACKGROUND IMAGE ==========
+*/
+body::after,
+.callout-backdrop,
+.userPopout-4pfA0d::before,
+.root-2sNHUF::before,
+#pubs-container::before,
+.auth-background,
+.auth-tiling-bg,
+.invite-modal .invite-splash,
+.radio-theme.light label,
+.radio-theme.dark label {
+    background-image: url(https://i.imgur.com/chVdSTQ.jpg) !important; /* IMPORTANT: Link must be HTTPS! */
+}
+/*
+--------------------------------------------------------------------------------------------------------------------------------------------
+*/
